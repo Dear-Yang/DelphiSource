@@ -1,0 +1,18 @@
+unit Unit1;
+
+interface
+  type
+  TPersion=class
+    public
+        procedure Talk();
+  end;
+implementation
+
+{ TPesion }
+
+procedure TPersion.Talk;
+begin
+ Writeln('Talk');
+end;
+
+end.

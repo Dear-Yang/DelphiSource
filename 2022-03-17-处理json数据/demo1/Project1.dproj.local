@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/03/17 15:32:58.320,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 15:34:14.779,D:\Delphi\2022-03-17-处理json数据\demo1\Unit1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 15:34:14.779,D:\Delphi\2022-03-17-处理json数据\demo1\Unit1.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/17 15:34:17.057,D:\Delphi\2022-03-17-处理json数据\demo1\Project1.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/17 15:42:28.807,=D:\Delphi\2022-03-17-处理json数据\demo1\Unit2.pas</Transaction>
+    <Transaction>2022/03/17 15:42:59.350,D:\Delphi\2022-03-17-处理json数据\demo1\domain\Unit2.pas=D:\Delphi\2022-03-17-处理json数据\demo1\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

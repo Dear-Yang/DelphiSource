@@ -1,0 +1,21 @@
+unit DaoUnit;
+
+interface
+
+uses
+    System.Generics.Collections, Unit2;
+
+procedure Add(Student: TStudent);
+
+implementation
+{³õÊ¼»¯ÈÝÆ÷Àà}
+
+var                        {TKey,Tvalue}
+    Students: TDictionary<Integer, TStudent>;
+
+
+initialization
+    Students := TDictionary<Integer, TStudent>.Create();
+
+end.
+

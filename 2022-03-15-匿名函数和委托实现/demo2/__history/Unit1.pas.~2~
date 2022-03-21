@@ -1,0 +1,32 @@
+unit Unit1;
+
+interface
+
+type
+    IEat = interface
+        procedure EatIng();
+    end;
+
+    TDog = class(TInterfacedObject, IEat)
+        procedure EatIng();
+    end;
+
+    TCat = class(TInterfacedObject, IEat)
+    private
+        Feat: IEat;
+    public
+        property Eat: IEat read Feat write Feat implements IEat;
+
+    end;
+
+implementation
+
+{ TDog }
+
+procedure TDog.EatIng;
+begin
+    Writeln('¹·³Ô¶«Î÷')
+end;
+
+end.
+

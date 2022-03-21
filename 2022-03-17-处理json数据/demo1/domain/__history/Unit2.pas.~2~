@@ -1,0 +1,18 @@
+unit Unit2;
+
+interface
+
+type
+    TStudent = class
+    private
+        Fname: string;
+        FAge: Integer;
+        public
+        property Name:string  read Fname write Fname;
+        //property Age: Integer read FAge write FAge;
+    end;
+
+implementation
+
+end.
+

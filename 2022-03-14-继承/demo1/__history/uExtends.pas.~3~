@@ -1,0 +1,55 @@
+unit uExtends;
+
+interface
+
+type
+    {定义一个类}
+    TAnimal = class
+    private
+        FTizhong: Integer;
+    public         {定义一个构造方法}
+        {重载：方法名相同，参数列表不同}
+        constructor Create();
+         {定义属性}
+        property Tizhong: Integer read FTizhong write FTizhong;
+    end;
+
+    {定义一个派生 狗 类}
+    TDog = class(TAnimal)
+    public
+        constructor Create();
+    end;
+
+    {定义一个派生 猫 类}
+    TCat = class(TAnimal)
+    public
+        constructor Create();
+    end;
+
+implementation
+ { TAnimal }
+
+constructor TAnimal.Create;
+begin
+  {类字段的初始化}
+    Writeln('动物类');
+end;
+
+
+
+{ TDog }
+
+constructor TDog.Create;
+begin
+    Writeln('狗类');
+end;
+
+{ TCat }
+
+constructor TCat.Create;
+begin
+    Writeln('猫类');
+end;
+
+end.
+

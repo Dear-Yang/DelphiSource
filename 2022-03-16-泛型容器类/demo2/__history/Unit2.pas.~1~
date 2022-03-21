@@ -1,0 +1,16 @@
+﻿unit Unit2;
+
+interface
+
+type
+    TStudent = class
+    private
+        Fname:string;
+    public
+        property Name: string read Fname write Fname;
+    end;
+
+implementation
+
+end.
+

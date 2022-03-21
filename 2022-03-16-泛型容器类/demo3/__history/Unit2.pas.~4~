@@ -1,0 +1,14 @@
+unit Unit2;
+
+interface
+type
+TStuden=class
+
+private
+FName:string;
+FAge:Integer;
+end;
+
+implementation
+
+end.

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/03/18 16:41:47.454,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/18 16:42:40.152,D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\Unit1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/18 16:42:40.152,D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\Unit1.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/18 16:42:41.083,D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\Project1.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/18 16:44:54.136,=D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\Unit2.pas</Transaction>
+    <Transaction>2022/03/18 16:45:32.155,D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\uThreads.pas=D:\Delphi\01A\DelphiSource\2022-03-18-线程\demo1\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

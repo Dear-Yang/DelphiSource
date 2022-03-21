@@ -1,0 +1,22 @@
+unit uToolsa1;
+
+{声明区域}
+interface
+
+var
+    Name: string;
+
+{实现区域}
+implementation
+
+var
+    Age: Integer;
+
+{初始化区域}
+initialization
+
+{销毁区域}
+finalization
+
+end.
+

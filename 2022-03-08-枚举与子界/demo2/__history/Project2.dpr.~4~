@@ -1,0 +1,77 @@
+program Project2;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+    System.SysUtils;
+
+{
+子界：防止越界
+1）上界和下届必须是有序的数据类型 整数、字符、枚举
+2）子界的上界大于或等于下届
+}
+
+{定义格式}
+
+type
+
+    // Ecolors = (RED, GREEN, BLUE);
+
+
+       //子界
+    // TSubBoundChar = 'a'..'z';
+
+    // TSubBoundEcolors = Ecolors.RED..Ecolors.BLUE;
+
+
+
+
+     //枚举:季节
+    ESeason = (SPRING, SUMMER, AUTUMN, WINTER);
+    //子界：12个月
+
+    TSubBoundMonths = 1..12;
+
+var
+    Season: ESeason;
+    Months: TSubBoundMonths;
+    UserYear: Integer;
+    UserMonth: Integer;
+    {闰年为True,平年为False}
+    IsLeapYear: Boolean;
+
+
+begin
+    // Writeln(Low(TSubBoundNumebr));
+
+    Writeln('请输入一个年份：');
+    Readln(UserYear);
+    Writeln('请输入一个月份：');
+    Readln(UserMonth);
+
+    // 默认为平年
+    IsLeapYear := False;
+    if UserYear mod 4 = 0 then begin
+        if UserYear mod 100 = 0 then begin
+            if UserYear mod 400 = 0 then begin
+                Writeln(UserYear, '年是闰年');
+                IsLeapYear := True;
+            end;
+
+        end
+        else begin
+            IsLeapYear := True;
+            Writeln(UserYear, '年是闰年');
+        end;
+    end;
+
+    // 季节
+    if (UserMonth >= Low(Months)) and (UserMonth <= High(Months)) then begin
+
+    end;
+
+    Readln;
+end.
+

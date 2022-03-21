@@ -1,0 +1,19 @@
+program Project1;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+{*------------------------------------------------------------------------------
+  1.匿名函数
+          定义格式：
+          TFun=reference to function(const num:Integer) :Integer;
+
+-------------------------------------------------------------------------------}
+
+uses
+  System.SysUtils;
+
+begin
+
+end.

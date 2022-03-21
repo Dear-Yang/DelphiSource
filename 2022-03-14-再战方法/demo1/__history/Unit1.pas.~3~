@@ -1,0 +1,41 @@
+﻿unit Unit1;
+
+interface
+
+type
+    TPersion = class
+    public
+        procedure Talk();
+
+        {虚拟方法}
+        function Run(): Integer; virtual;
+    end;
+
+    TUser = class(TPersion)  {父调用}
+    public
+        function Run(): Integer;  {父类重写}
+    end;
+
+implementation
+
+{ TPesion }
+
+function TPersion.Run: Integer;
+begin
+{一般情况下，父类的虚拟方法会有一个空实现，为子类覆盖用}
+end;
+
+procedure TPersion.Talk;
+begin
+    Writeln('Talk');
+end;
+
+{ TUser }
+
+function TUser.Run: Integer;
+begin
+
+end;
+
+end.
+

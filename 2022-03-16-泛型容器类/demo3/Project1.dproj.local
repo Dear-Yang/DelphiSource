@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/16 17:34:49.000.005,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 17:35:07.000.262,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 17:35:07.000.262,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit1.dfm</Transaction>
+    <Transaction>2022/03/16 17:35:12.000.105,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Delphi\2022-03-16-泛型容器类\demo3\Project1.dproj</Transaction>
+    <Transaction>2022/03/17 09:08:27.000.419,=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit2.pas</Transaction>
+    <Transaction>2022/03/17 09:47:15.000.658,=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit3.pas</Transaction>
+    <Transaction>2022/03/17 09:48:26.000.996,D:\Delphi\2022-03-16-泛型容器类\demo3\AddForm.pas=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit3.pas</Transaction>
+    <Transaction>2022/03/17 09:48:26.000.996,D:\Delphi\2022-03-16-泛型容器类\demo3\AddForm.dfm=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit3.dfm</Transaction>
+    <Transaction>2022/03/17 09:52:50.000.790,D:\Delphi\2022-03-16-泛型容器类\demo3\AddFormUnit.dfm=D:\Delphi\2022-03-16-泛型容器类\demo3\AddForm.dfm</Transaction>
+    <Transaction>2022/03/17 09:52:50.000.790,D:\Delphi\2022-03-16-泛型容器类\demo3\AddFormUnit.pas=D:\Delphi\2022-03-16-泛型容器类\demo3\AddForm.pas</Transaction>
+    <Transaction>2022/03/17 10:42:30.000.381,=D:\Delphi\2022-03-16-泛型容器类\demo3\Unit3.pas</Transaction>
+    <Transaction>2022/03/17 10:43:10.000.685,D:\Delphi\2022-03-16-泛型容器类\demo3\Unit3.pas=D:\Delphi\2022-03-16-泛型容器类\demo3\DaoUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>
